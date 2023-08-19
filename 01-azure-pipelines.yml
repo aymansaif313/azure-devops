@@ -11,19 +11,17 @@ pool:
 
 jobs:
 
-  job1:
+- job1:
     steps:
     - script: echo Hello, world! job1
       displayName: 'Run a one-line script job1'
 
-  job2:
-
+- job2:
     steps:
     - script: echo Hello, world! job2
       displayName: 'Run a one-line script job2'
 
-  job3:
-
+- job3:
     steps:
     - script: echo Hello, world! job3
       displayName: 'Run a one-line script job3'
